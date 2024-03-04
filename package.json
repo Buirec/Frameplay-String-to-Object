@@ -1,9 +1,9 @@
 {
-  "scripts": 
-    {"run": "node index.ts"}
-  ,
-  "type": "module",
+  "scripts": {
+    "start": "npx ts-node index.ts"
+  },
   "dependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
